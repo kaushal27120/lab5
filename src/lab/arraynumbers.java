@@ -1,4 +1,4 @@
-package lab5;
+package lab;
 
 public class arraynumbers {
     public static void main(String[] args) {

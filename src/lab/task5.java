@@ -1,4 +1,4 @@
-package lab5;
+package lab;
 import java.util.Scanner;
 public class task5 {
         public static void main(String[] args) {

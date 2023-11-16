@@ -1,4 +1,4 @@
-package lab5;
+package lab;
 import java.util.Random;
 
 public class task2 {
