@@ -46,14 +46,26 @@ class Staff extends Person {
         System.out.println("Enter education:");
         education = scanner.nextLine();
 
+
         System.out.println("Enter position:");
         position = scanner.nextLine();
 }
 
     public void print1() {
         print();
-        System.out.println("Education: " + education);
-        System.out.println("Position: " + position);
+        if (education.equals("")) {
+            System.out.println("Education: " + education + "None");
+        }
+        else {
+            System.out.println("Education: " + education);
+        }
+
+        if (position.equals("")) {
+            System.out.println("Position: " + position + "None");
+        }
+        else {
+            System.out.println("Position: " + position);
+        }
     }
 }
 
