@@ -1,6 +1,6 @@
 package lab7;
 
-public abstract class Animal {
+public abstract class Animal implements AnimalBehavior, AnimalMove, AnimalName{
     String name;
     int age;
     double weight;
@@ -16,8 +16,12 @@ public abstract class Animal {
         }
 
 
+
     public abstract void eat();
 
     public abstract String getVoice();
 
+    public String getName() {
+        return name;
+    }
 }

@@ -1,6 +1,6 @@
 package lab7;
 
-public class Fish extends Animal {
+public class Fish extends Animal implements AnimalBehavior, AnimalMove, AnimalName{
     public Fish(String name, int age, double weight) {
         super(name, age, weight);
     }
@@ -21,6 +21,13 @@ public class Fish extends Animal {
         return "Silent in water";
     }
 
-    // Additional methods for Fish class
+    public void sleep() {
+        System.out.println("Fish is sleeping");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("fish sweams in water");
+    }
 }
 

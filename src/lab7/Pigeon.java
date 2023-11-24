@@ -1,7 +1,7 @@
 package lab7;
 
 
-public class Pigeon extends Bird {
+public class Pigeon extends Bird implements AnimalBehavior{
     String species;
 
     public Pigeon(String name, int age, double weight, String featherColor, String species) {
@@ -24,5 +24,9 @@ public class Pigeon extends Bird {
         return "Coo! Coo!";
     }
 
+    @Override
+    public void sleep() {
+        System.out.println("Pigeon is sleeping");
+    }
 }
 

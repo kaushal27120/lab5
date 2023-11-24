@@ -23,6 +23,14 @@ public class Dog extends Mammal {
         return "Woof! Woof!";
     }
 
-    // Additional methods for Dog class
+    @Override
+    public void sleep() {
+        System.out.println("Dog is sleeping");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("Dog run");
+    }
 }
 
