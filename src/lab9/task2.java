@@ -3,8 +3,8 @@ package lab9;
 public class task2 {
     public static void main(String[] args) {
         try {
+            processInput(5);
             processInput(0);
-            processInput(-1);
             processInput(5);
         } catch (ArithmeticException e) {
             System.out.println("ArithmeticException caught: " + e.getMessage());
