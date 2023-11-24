@@ -10,6 +10,11 @@ public class Pigeon extends Bird {
     }
 
     @Override
+    public String toString() {
+        return "Pigeon - " + super.toString() + ", Species: " + species;
+    }
+
+    @Override
     public void eat() {
         System.out.println("Pigeon is eating");
     }

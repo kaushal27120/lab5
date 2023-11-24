@@ -9,6 +9,11 @@ public class Dog extends Mammal {
     }
 
     @Override
+    public String toString() {
+        return "Dog - " + super.toString();
+    }
+
+    @Override
     public void eat() {
         System.out.println("Dog is eating");
     }

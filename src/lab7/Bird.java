@@ -8,6 +8,11 @@ public class Bird extends Animal {
         super(name, age, weight);
         this.featherColor = featherColor;
     }
+    @Override
+    public String toString() {
+        return "Bird - " + super.toString() + ", Feather Color: " + featherColor;
+    }
+
 
     @Override
     public void eat() {

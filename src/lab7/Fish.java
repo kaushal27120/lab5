@@ -5,6 +5,11 @@ public class Fish extends Animal {
         super(name, age, weight);
     }
 
+    @Override
+    public String toString() {
+        return "Fish - " + super.toString();
+    }
+
 
     @Override
     public void eat() {

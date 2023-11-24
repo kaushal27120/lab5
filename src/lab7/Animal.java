@@ -10,6 +10,11 @@ public abstract class Animal {
         this.age = age;
         this.weight = weight;
     }
+        @Override
+        public String toString() {
+            return "Name: " + name + ", Age: " + age + ", Weight: " + weight;
+        }
+
 
     public abstract void eat();
 
