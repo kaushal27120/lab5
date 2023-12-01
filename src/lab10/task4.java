@@ -11,7 +11,7 @@ public class task4 {
 
         try (
                 BufferedReader reader = new BufferedReader(new FileReader(sourceFilePath));
-                BufferedWriter writer = new BufferedWriter(new FileWriter(destinationFilePath))
+                FileWriter writer = new FileWriter(destinationFilePath)
         ) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -24,11 +24,10 @@ public class task4 {
                     try {
                         int grade = Integer.parseInt(parts[2]);
                         if (grade == 5) {
-                            writer.write(firstName + "\t" + lastName + "\t" + grade);
-                            writer.newLine();
+                            writer.write(firstName + "\t" + lastName + "\t" + grade + "\n");
                         }
                     } catch (NumberFormatException e) {
-                        System.err.println("Error parsing grade for: " + firstName + " " + lastName);
+                        System.err.println("Error parsing grade for: " + firstName + " " + lastName );
                     }
                 }
             }
