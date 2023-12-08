@@ -23,7 +23,7 @@ public class MyThreadver3 implements Runnable {
         } catch (InterruptedException e) {
             System.out.println(thread.getName() + " has been interrupted");
         }
-        System.out.println(thread.getName() + " finishes running.");
+        System.out.println(thread.getName() + " finishes running,");
     }
 }
 
