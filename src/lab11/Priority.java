@@ -13,11 +13,11 @@ public void run() {
         count++;
         if (currentName.compareTo(thread.getName()) != 0) {
             currentName = thread.getName();
-            System.out.println(currentName + "is executed");
+            System.out.println(currentName + " is executed");
         }
     } while (stop == false && count < 10_000_000);
     stop = true;
-    System.out.println("\n" + thread.getName() + "finishes running.");
+    System.out.println("\n" + thread.getName() + " finishes running.");
 }}
 
 class PriorityDemo {
