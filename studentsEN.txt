@@ -7,7 +7,7 @@ Adel	Omar	2
 Adelosoye	Adeniyi	2
 Ahmadov	Elshan	2
 Ahmadov	Shukran	4
-Ait Moussa	Ahmed	3
+Ait	Ahmed	3
 Aitanov	Ariet	5
 Akgul	Iclal	5
 Akmatalieva	Nazbiike	4
@@ -18,7 +18,7 @@ Alizada	Khalil	4
 Amelchanka	Alesia	5
 Amine	Mohamed	3
 Andzheychak	Mark	4
-Anil Raju	Abhimanyu	3
+Anil	Abhimanyu	3
 Anosov	Arsenii	3
 Arslan	Sait	4
 Artikgaliev	Farokhitdin	4
@@ -61,7 +61,7 @@ Chidawanyika	Taka	2
 Chigumira	Tafadzwa	2
 Chikosha	Winstone	2
 Chinhamora	Brian	5
-Chipanga Junior	Albano	3
+Chipanga	Albano	3
 Chipise	Tanaka	4
 Chirimumimba	Gabriel	3
 Chiwara	Michael	3
@@ -69,7 +69,7 @@ Choga	Tinotenda	2
 Christmas	Manatsaishe	5
 Chupryna	Valentyn	5
 Chynaliev	Nurtilek	2
-Coronado Chichiraky	Sebastian	2
+Coronado	Sebastian	2
 Cumba	Cleide	4
 Dalk?ran	Pelin	2
 Damirov	Ismayil	2
@@ -176,7 +176,7 @@ Murotov	Shakhzod	5
 Murzabekova	Aziza	4
 Musariri	Tanaka	5
 Musengi	Panashe	3
-Mustafazada Asgari	Aydan	4
+Mustafazada	Aydan	4
 Muswe	Gladys	5
 Mutapanduwa	Taremekedzwa	3
 Mutendwa	Panashe	5
@@ -189,7 +189,7 @@ Nguyen	Anh	3
 Nhlanhla	Khulekani	3
 Niyazov	Daulet	2
 Njela	Tapiwanashe	5
-Nokutenda  Prince	Mahembe	3
+Nokutenda	Mahembe	3
 Nopakulwong	Wongsakorn	4
 Nuray	Ömer	5
 Nurmatov	Baidoolot	3
@@ -200,7 +200,7 @@ Oktay	Halil	3
 Omurov	Abdurakhman	3
 Onal	Emirhan	5
 Ordobaeva	Sapargul	4
-Oussama Sallah	Amouri	3
+Oussama	Amouri	3
 Özbilenler	Asl?han	5
 Ozcan	Beng?su	5
 Ozen	Sena	4
