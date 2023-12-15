@@ -22,16 +22,18 @@ public class task1 {
                 }
 
                 System.out.println("Size of the collection: " + employeeList.size());
+
+                System.out.println("\nusing standard loop:");
                 for (int i = 0; i < employeeList.size(); i++) {
                     System.out.println(employeeList.get(i));
                 }
 
-                System.out.println("\nContents using for-each loop:");
+                System.out.println("\nusing for-each loop:");
                 for (String employee : employeeList) {
                     System.out.println(employee);
                 }
 
-                System.out.println("\nContents using Iterator:");
+                System.out.println("\nusing Iterator:");
                 Iterator<String> iterator = employeeList.iterator();
                 while (iterator.hasNext()) {
                     System.out.println(iterator.next());
